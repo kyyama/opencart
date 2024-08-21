@@ -1,0 +1,12 @@
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/Utilities/DataProviders.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/Utilities/ExcelUtility.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/Utilities/ExtentReportManager.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/pageObjects/AccountRegistrationPage.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/pageObjects/BasePage.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/pageObjects/HomePage.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/pageObjects/LoginPage.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/pageObjects/MyAccountPage.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/testBase/BaseClass.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/testCases/TC_001_AccountregistrationTest.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/testCases/TC_002_LoginTest.java
+/Users/kavithakyama/Desktop/AutomationFrameWork/OpenCart/src/test/java/testCases/TC_003_LoginDDT.java

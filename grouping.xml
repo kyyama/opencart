@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM  "http://testng.org/testng-1.0.dtd">
+<!-- grous tag is mention before starting test tag-->
+
+<suite name=" Master Suite">
+<groups>
+	<run>
+	<!-- <include name="Sanity"/> -->
+		<!--<include name="Regression"/>-->
+		<include name="Master"/>
+		<!-- <exclude name="Master"/>-->
+		
+	</run>
+</groups>	
+<listeners>
+	<listener class-name="Utilities.ExtentReportManager"/>
+	</listeners>
+	
+  <test  name="Test">
+	<parameter name="os" value="MacOS"/>
+	<parameter name="browser" value="chrome"/>
+    <classes>
+    <class name="testCases.TC_001_AccountregistrationTest"/>
+    <class name="testCases.TC_002_LoginTest"/>
+    <!--  <class name="testCases.TC_003_LoginDDT"/>-->
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 

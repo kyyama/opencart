@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM  "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Suite" thread-count="5">
+	<listeners>
+		
+		<listener class-name="Utilities.ExtentReportManager"/>
+	</listeners>
+	
+  <test  name="linux-firefox">
+	
+	<parameter name="os" value="linux"/>
+	
+	<parameter name="browser" value="firefox"/>
+	
+    <classes>
+		
+      <class name="testCases.TC_001_AccountregistrationTest"/>
+      
+     <class name="testCases.TC_002_LoginTest"/>
+   <!--  <class name="testCases.TC_003_LoginDDT"/>-->
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
